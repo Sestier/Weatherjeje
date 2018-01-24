@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85049AB220193F9B002B6045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85049AB120193F9A002B6045 /* AppDelegate.swift */; };
+		85049AB420193F9B002B6045 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85049AB320193F9B002B6045 /* ViewController.swift */; };
+		85049AB720193F9B002B6045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85049AB520193F9B002B6045 /* Main.storyboard */; };
+		85049AB920193F9B002B6045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85049AB820193F9B002B6045 /* Assets.xcassets */; };
+		85049ABC20193F9B002B6045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85049ABA20193F9B002B6045 /* LaunchScreen.storyboard */; };
+		85049AC720193F9B002B6045 /* AppDelTiempoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85049AC620193F9B002B6045 /* AppDelTiempoTests.swift */; };
+		85049AD220193F9B002B6045 /* AppDelTiempoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85049AD120193F9B002B6045 /* AppDelTiempoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85049AC320193F9B002B6045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85049AA620193F9A002B6045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85049AAD20193F9A002B6045;
+			remoteInfo = AppDelTiempo;
+		};
+		85049ACE20193F9B002B6045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85049AA620193F9A002B6045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85049AAD20193F9A002B6045;
+			remoteInfo = AppDelTiempo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85049AAE20193F9A002B6045 /* AppDelTiempo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDelTiempo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85049AB120193F9A002B6045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85049AB320193F9B002B6045 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85049AB620193F9B002B6045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85049AB820193F9B002B6045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85049ABB20193F9B002B6045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85049ABD20193F9B002B6045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85049AC220193F9B002B6045 /* AppDelTiempoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppDelTiempoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85049AC620193F9B002B6045 /* AppDelTiempoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelTiempoTests.swift; sourceTree = "<group>"; };
+		85049AC820193F9B002B6045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85049ACD20193F9B002B6045 /* AppDelTiempoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppDelTiempoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85049AD120193F9B002B6045 /* AppDelTiempoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelTiempoUITests.swift; sourceTree = "<group>"; };
+		85049AD320193F9B002B6045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85049AAB20193F9A002B6045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85049ABF20193F9B002B6045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85049ACA20193F9B002B6045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85049AA520193F9A002B6045 = {
+			isa = PBXGroup;
+			children = (
+				85049AB020193F9A002B6045 /* AppDelTiempo */,
+				85049AC520193F9B002B6045 /* AppDelTiempoTests */,
+				85049AD020193F9B002B6045 /* AppDelTiempoUITests */,
+				85049AAF20193F9A002B6045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85049AAF20193F9A002B6045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85049AAE20193F9A002B6045 /* AppDelTiempo.app */,
+				85049AC220193F9B002B6045 /* AppDelTiempoTests.xctest */,
+				85049ACD20193F9B002B6045 /* AppDelTiempoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85049AB020193F9A002B6045 /* AppDelTiempo */ = {
+			isa = PBXGroup;
+			children = (
+				85049AB120193F9A002B6045 /* AppDelegate.swift */,
+				85049AB320193F9B002B6045 /* ViewController.swift */,
+				85049AB520193F9B002B6045 /* Main.storyboard */,
+				85049AB820193F9B002B6045 /* Assets.xcassets */,
+				85049ABA20193F9B002B6045 /* LaunchScreen.storyboard */,
+				85049ABD20193F9B002B6045 /* Info.plist */,
+			);
+			path = AppDelTiempo;
+			sourceTree = "<group>";
+		};
+		85049AC520193F9B002B6045 /* AppDelTiempoTests */ = {
+			isa = PBXGroup;
+			children = (
+				85049AC620193F9B002B6045 /* AppDelTiempoTests.swift */,
+				85049AC820193F9B002B6045 /* Info.plist */,
+			);
+			path = AppDelTiempoTests;
+			sourceTree = "<group>";
+		};
+		85049AD020193F9B002B6045 /* AppDelTiempoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85049AD120193F9B002B6045 /* AppDelTiempoUITests.swift */,
+				85049AD320193F9B002B6045 /* Info.plist */,
+			);
+			path = AppDelTiempoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85049AAD20193F9A002B6045 /* AppDelTiempo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85049AD620193F9B002B6045 /* Build configuration list for PBXNativeTarget "AppDelTiempo" */;
+			buildPhases = (
+				85049AAA20193F9A002B6045 /* Sources */,
+				85049AAB20193F9A002B6045 /* Frameworks */,
+				85049AAC20193F9A002B6045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppDelTiempo;
+			productName = AppDelTiempo;
+			productReference = 85049AAE20193F9A002B6045 /* AppDelTiempo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85049AC120193F9B002B6045 /* AppDelTiempoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85049AD920193F9B002B6045 /* Build configuration list for PBXNativeTarget "AppDelTiempoTests" */;
+			buildPhases = (
+				85049ABE20193F9B002B6045 /* Sources */,
+				85049ABF20193F9B002B6045 /* Frameworks */,
+				85049AC020193F9B002B6045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85049AC420193F9B002B6045 /* PBXTargetDependency */,
+			);
+			name = AppDelTiempoTests;
+			productName = AppDelTiempoTests;
+			productReference = 85049AC220193F9B002B6045 /* AppDelTiempoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85049ACC20193F9B002B6045 /* AppDelTiempoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85049ADC20193F9B002B6045 /* Build configuration list for PBXNativeTarget "AppDelTiempoUITests" */;
+			buildPhases = (
+				85049AC920193F9B002B6045 /* Sources */,
+				85049ACA20193F9B002B6045 /* Frameworks */,
+				85049ACB20193F9B002B6045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85049ACF20193F9B002B6045 /* PBXTargetDependency */,
+			);
+			name = AppDelTiempoUITests;
+			productName = AppDelTiempoUITests;
+			productReference = 85049ACD20193F9B002B6045 /* AppDelTiempoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85049AA620193F9A002B6045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Maestro;
+				TargetAttributes = {
+					85049AAD20193F9A002B6045 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					85049AC120193F9B002B6045 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85049AAD20193F9A002B6045;
+					};
+					85049ACC20193F9B002B6045 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85049AAD20193F9A002B6045;
+					};
+				};
+			};
+			buildConfigurationList = 85049AA920193F9A002B6045 /* Build configuration list for PBXProject "AppDelTiempo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85049AA520193F9A002B6045;
+			productRefGroup = 85049AAF20193F9A002B6045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85049AAD20193F9A002B6045 /* AppDelTiempo */,
+				85049AC120193F9B002B6045 /* AppDelTiempoTests */,
+				85049ACC20193F9B002B6045 /* AppDelTiempoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85049AAC20193F9A002B6045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85049ABC20193F9B002B6045 /* LaunchScreen.storyboard in Resources */,
+				85049AB920193F9B002B6045 /* Assets.xcassets in Resources */,
+				85049AB720193F9B002B6045 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85049AC020193F9B002B6045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85049ACB20193F9B002B6045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85049AAA20193F9A002B6045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85049AB420193F9B002B6045 /* ViewController.swift in Sources */,
+				85049AB220193F9B002B6045 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85049ABE20193F9B002B6045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85049AC720193F9B002B6045 /* AppDelTiempoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85049AC920193F9B002B6045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85049AD220193F9B002B6045 /* AppDelTiempoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85049AC420193F9B002B6045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85049AAD20193F9A002B6045 /* AppDelTiempo */;
+			targetProxy = 85049AC320193F9B002B6045 /* PBXContainerItemProxy */;
+		};
+		85049ACF20193F9B002B6045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85049AAD20193F9A002B6045 /* AppDelTiempo */;
+			targetProxy = 85049ACE20193F9B002B6045 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85049AB520193F9B002B6045 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85049AB620193F9B002B6045 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85049ABA20193F9B002B6045 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85049ABB20193F9B002B6045 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85049AD420193F9B002B6045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85049AD520193F9B002B6045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85049AD720193F9B002B6045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppDelTiempo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.AppDelTiempo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		85049AD820193F9B002B6045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppDelTiempo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.AppDelTiempo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		85049ADA20193F9B002B6045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AppDelTiempoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.AppDelTiempoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppDelTiempo.app/AppDelTiempo";
+			};
+			name = Debug;
+		};
+		85049ADB20193F9B002B6045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AppDelTiempoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.AppDelTiempoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppDelTiempo.app/AppDelTiempo";
+			};
+			name = Release;
+		};
+		85049ADD20193F9B002B6045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AppDelTiempoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.AppDelTiempoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AppDelTiempo;
+			};
+			name = Debug;
+		};
+		85049ADE20193F9B002B6045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AppDelTiempoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.AppDelTiempoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AppDelTiempo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85049AA920193F9A002B6045 /* Build configuration list for PBXProject "AppDelTiempo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85049AD420193F9B002B6045 /* Debug */,
+				85049AD520193F9B002B6045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85049AD620193F9B002B6045 /* Build configuration list for PBXNativeTarget "AppDelTiempo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85049AD720193F9B002B6045 /* Debug */,
+				85049AD820193F9B002B6045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85049AD920193F9B002B6045 /* Build configuration list for PBXNativeTarget "AppDelTiempoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85049ADA20193F9B002B6045 /* Debug */,
+				85049ADB20193F9B002B6045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85049ADC20193F9B002B6045 /* Build configuration list for PBXNativeTarget "AppDelTiempoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85049ADD20193F9B002B6045 /* Debug */,
+				85049ADE20193F9B002B6045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85049AA620193F9A002B6045 /* Project object */;
+}
